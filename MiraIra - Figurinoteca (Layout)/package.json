@@ -1,0 +1,21 @@
+{
+  "name": "MiraIra",
+  "version": "1.0.0",
+  "description": "Figurinoteca MiraIra",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

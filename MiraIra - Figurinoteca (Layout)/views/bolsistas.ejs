@@ -1,0 +1,95 @@
+<%- include('partials/header', { title: 'Bolsistas' }) %>
+
+    <style>
+        .logo {
+            display: block;
+            margin: 50px auto 30px;
+            width: 150px;
+        }
+        .table th {
+            background-color: #ff7300 !important;
+            color: white;
+        }
+        .table td.bolsista {
+            background-color: #ff7300 !important;
+            color: white;
+            font-weight: bold;
+        }
+        .table td.bolsista.special {
+            color: white !important;
+        }
+    </style>
+
+    <div class="container mt-5">
+        <img src="/images/logo.jpg" alt="MiraIra Logo" class="logo">
+
+        <h1 class="text-center mb-4">Veja o horário em que você pode retirar seu Figurino!</h1>
+        <table class="table table-bordered table-striped text-center">
+            <thead>
+                <tr>
+                    <th>Bolsista</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="bolsista special">Adriana</td>
+                    <td></td>
+                    <td>9h - 13h</td>
+                    <td></td>
+                    <td>9h - 13h</td>
+                    <td>9h - 13h</td>
+                </tr>
+                <tr>
+                    <td class="bolsista">Julius</td>
+                    <td></td>
+                    <td>9h - 13h</td>
+                    <td>9h - 13h</td>
+                    <td>9h - 13h</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bolsista special">Leonardo</td>
+                    <td>19h - 20h</td>
+                    <td></td>
+                    <td>19h - 20h</td>
+                    <td>14h - 19h</td>
+                    <td>14h - 19h</td>
+                </tr>
+                <tr>
+                    <td class="bolsista special">Osias</td>
+                    <td>9h - 13h e 19h - 20h</td>
+                    <td></td>
+                    <td>9h - 16h e 19h - 20h</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="bolsista special">Ruth</td>
+                    <td>9h - 13h</td>
+                    <td>9h - 13h</td>
+                    <td></td>
+                    <td></td>
+                    <td>16h - 19h</td>
+                </tr>
+                <tr>
+                    <td class="bolsista">Samuel</td>
+                    <td></td>
+                    <td>14h - 19h</td>
+                    <td>14h - 16h</td>
+                    <td>18h - 19h</td>
+                    <td>9h - 13h</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="text-center mt-4">
+            <p>Escolha o horário que melhor se adapta à sua disponibilidade e reserve seu figurino. Lembre-se que os horários são limitados e as reservas são feitas por ordem de chegada!</p>
+        </div>
+    </div>
+</body>
+</html>
